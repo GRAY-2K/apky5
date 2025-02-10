@@ -79,12 +79,15 @@
      
      // Initialize Firebase
      firebase.initializeApp(firebaseConfig);
-     
-     // Add this line to start checking auth state
-     checkAuth();
    </script>
 
    <!-- JavaScript File -->
    <script src="app.js"></script>
+
+   <!-- Initialize Auth Check -->
+   <script>
+     // Add this line after app.js is loaded
+     checkAuth();
+   </script>
  </body>
 </html>
